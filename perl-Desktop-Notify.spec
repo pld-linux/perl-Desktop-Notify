@@ -66,6 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Desktop
 %{perl_vendorlib}/Desktop/*.pm
 %{perl_vendorlib}/Desktop/Notify
 %{_mandir}/man3/*
