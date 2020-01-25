@@ -6,7 +6,6 @@
 
 %define		pdir	Desktop
 %define		pnam	Notify
-%include	/usr/lib/rpm/macros.perl
 Summary:	Desktop::Notify - Communicate with the Desktop Notifications framework
 Name:		perl-Desktop-Notify
 Version:	0.03
